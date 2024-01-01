@@ -1,0 +1,8 @@
+<h2 [style.text-align] ="talign" [style.background-color]="color" [style.color]="color">hiiiiiiiiii {{color}}</h2>
+<p>{{color}}</p>
+
+<h1>{{msg}}</h1>
+<button (click)="setColor()">Change text color</button>
+<!-- <p><label>Enter your name</label><input type="text" name="" [value]="msg"(input)="msg=$any($event.target).value"></p> -->
+<p><label>Enter your name</label> <input type="text" name="m" [(ngModel)]="msg"></p>
+
